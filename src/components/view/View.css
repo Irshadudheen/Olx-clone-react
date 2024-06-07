@@ -1,0 +1,95 @@
+/* View.css */
+
+.viewParentDiv {
+    padding-top: 4em;
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .viewParentDiv .imageShowDiv {
+    padding: 16px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .viewParentDiv .imageShowDiv img {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .viewParentDiv .rightSection {
+    padding: 16px;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-left: 2em;
+  }
+  
+  .viewParentDiv .rightSection .productDetails {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 2em;
+    background-color: #fff;
+  }
+  
+  .viewParentDiv .rightSection .productDetails p:first-child {
+    font-weight: 700;
+    color: #002f34;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .viewParentDiv .rightSection .productDetails span {
+    font-size: 22px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .viewParentDiv .rightSection .productDetails p:last-child {
+    color: #888;
+    font-size: 16px;
+  }
+  
+  .viewParentDiv .rightSection .contactDetails {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .viewParentDiv .rightSection .contactDetails p:first-child {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #002f34;
+    margin-bottom: 10px;
+  }
+  
+  .viewParentDiv .rightSection .contactDetails p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .viewParentDiv .rightSection .contactDetails p:last-child {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .viewParentDiv .rightSection .contactDetails p:last-child:hover {
+    text-decoration: underline;
+  }
+  
